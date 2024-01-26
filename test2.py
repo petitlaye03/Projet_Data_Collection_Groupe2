@@ -24,8 +24,8 @@ if choix == taches[0]:
         st.write("Nombre de lignes et de colonnes pour les données des villas : ", villas_bs4.shape)
     elif selection == "Appartements":
         st.subheader("Voici les données des appartements extraites et netoyees avec BeautifulSoup4 :")
-        st.write(appartements_ws)
-        st.write("Nombre de lignes et de colonnes pour les données des appartements : ", appartements_ws.shape)
+        st.write(appartements_bs4)
+        st.write("Nombre de lignes et de colonnes pour les données des appartements : ", appartements_bs4.shape)
     elif selection == "Terrains":
         st.subheader("Voici les données des terrains extraites et netoyees avec BeautifulSoup4 :")
         st.write(terrains_bs4)
