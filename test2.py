@@ -1,7 +1,6 @@
 # Importation des packages
-import streamlit as st
 import pandas as pd
-
+import streamlit as st
 import seaborn as sns
 import matplotlib.pyplot as plt
 
@@ -57,7 +56,7 @@ elif choix == taches[1]:  # Si l'utilisateur choisit Web Scraper
         st.subheader("Voici les données des terrains extraites avec Web scraper :")
         st.write(terrains_ws)
         st.write("Nombre de lignes et de colonnes pour les données des terrains : ", terrains_ws.shape)
-    else:
+else:
         st.title("Données Web Scrapping")
         st.write("Voici les differents graphiques  ")
     # Simuler des données pour le tableau de bord
@@ -96,3 +95,15 @@ elif choix == taches[1]:  # Si l'utilisateur choisit Web Scraper
         ax.legend()
     # Afficher le graphique avec Streamlit
         st.pyplot(fid)
+
+
+
+
+
+
+
+
+
+
+
+
