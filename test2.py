@@ -1,8 +1,9 @@
 # Importation des packages
-import pandas as pd
 import streamlit as st
+import pandas as pd
+
 import seaborn as sns
-import matplotlib as plt
+import matplotlib.pyplot as plt
 
 # Chargement des données depuis les fichiers CSV pour BeautifulSoup4
 villas_bs4 = pd.read_csv("Vente_Locations_Villas.csv")
