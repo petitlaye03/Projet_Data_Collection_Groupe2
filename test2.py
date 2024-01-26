@@ -22,7 +22,7 @@ taches = ["BeautifulSoup4", "Web Scraper","Dashboard"]
 options = ["Villas", "Appartements", "Terrains"]
 
 # Sélection de la tâche depuis la barre latérale
-choix = st.sidebar.selectbox("Selectionner", taches)
+choix = st.sidebar.selectbox("Selectionner la methode de scraping", taches)
 
 # Sélection des données à afficher depuis la barre latérale
 selection = st.sidebar.selectbox("Sélectionner les données à afficher :", options)
